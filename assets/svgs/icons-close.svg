@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path" d="M2.822,8.571l6.186,6.481a1.266,1.266,0,0,1,0,1.732,1.132,1.132,0,0,1-1.653,0L.342,9.437a1.266,1.266,0,0,1,0-1.732L7.355.359a1.132,1.132,0,0,1,1.653,0,1.266,1.266,0,0,1,0,1.732Z"/>
+    </clipPath>
+  </defs>
+  <g id="icons_close" data-name="icons/close" transform="translate(0 24) rotate(-90)">
+    <rect id="icons_close_background" data-name="icons/close background" width="24" height="24" fill="rgba(0,0,0,0)"/>
+    <path id="Path-2" data-name="Path" d="M2.822,8.571l6.186,6.481a1.266,1.266,0,0,1,0,1.732,1.132,1.132,0,0,1-1.653,0L.342,9.437a1.266,1.266,0,0,1,0-1.732L7.355.359a1.132,1.132,0,0,1,1.653,0,1.266,1.266,0,0,1,0,1.732Z" transform="translate(7.714 3.429)" fill="#fff"/>
+  </g>
+</svg>
