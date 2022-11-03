@@ -8,6 +8,7 @@ import 'package:flutter_session/flutter_session.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'contact.dart';
 import 'splash.dart';
@@ -214,6 +215,20 @@ class _AccountState extends State<Account> {
                             isSvg: true,
                             text: "Password Settings",
                             image: "assets/svgs/lock.svg",
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 16.0,
+                            vertical: 8.0,
+                          ),
+                          child: OptionContainer(
+                            function: () {
+                              launch('https://educand.org/privacy-policy/');
+                            },
+                            isSvg: false,
+                            text: "Privacy Policy",
+                            image: "assets/images/privacy_policy.png",
                           ),
                         ),
                         Padding(
